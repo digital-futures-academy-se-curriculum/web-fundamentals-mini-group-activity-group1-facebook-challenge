@@ -1,0 +1,130 @@
+/* header #3c5997 body - #E9EBEE green button - #5D9A4B */
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+}
+
+header {
+    background-color: #3c5997;
+    color: #E9EBEE;
+    margin-bottom: 100px;
+    height: 60px;
+    margin-top: -20px;
+}
+
+body {
+    background-color: #E9EBEE;
+}
+
+form input {
+    margin: 10px 5px;
+}
+
+#h1-div {
+    float: left;
+    margin-right: 655px;
+    margin-left: 225px;
+    margin-top: 10px;
+}
+
+#form-div {
+    margin-top: 20px;
+}
+
+.reduced-size {
+    width: 600px;
+    height: 325px;
+}
+
+.button {
+    display: inline-block;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 2px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #5D9A4B, #5a8e47);
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+
+#logInForm {
+    /* border-radius: 5px;
+        position: top;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%); */
+    color: red;
+    bottom: 500px;
+}
+
+
+/* #logInForm {
+    background-color: #3c5997;
+    float: right;
+    left: 1200px;
+} */
+
+
+/* .loginBar {
+    display: flex;
+    align-items: center;
+} */
+
+.leftContainer {
+    position: relative;
+    float: right;
+    right: 52%;
+}
+
+.wrap-text {
+    word-wrap: break-word;
+}
+
+.container1 {
+    position: relative;
+    left: 50%;
+    top: 0;
+}
+
+#create-account {
+    margin-bottom: 10px;
+}
+
+#first-name {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#last-name {
+    width: 300px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#mobile-email {
+    width: 622px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#password-two {
+    width: 622px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.container1 form input[type="tel"],
+.container1 form input[type="password"] {
+    width: 100%;
+}
+
+.container1 p {
+    font-size: 12px;
+}

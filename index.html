@@ -4,12 +4,79 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up For FaceBook</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    
+    <header>
+        <div id="h1-div">
+            <h1 class="heading1">DFA Learn HTML/CSS</h1>
+        </div>
+
+        <div id="form-div">
+            <form action="" method="get" id="logInForm">
+                <input type="email" name="username" id="username" placeholder="Enter email...">
+                <input type="password" name="password" id="password" placeholder="Enter password...">
+                <input type="submit" value="Login" />
+            </form>
+        </div>
+
+    </header>
+
+    <div class="leftContainer">
+        <h1 class="wrap-text">Facebook helps you to connect and share with<br>the people in your life</h1>
+        <img src="/images/people-network.png" alt="People Network" class="reduced-size" />
+    </div>
+
+
+    <div class="container1">
+        <h1 id="create-account">Create an account</h1>
+        <p>It's free and always will be </p>
+
+        <input type="text" name="first name" id="first-name" placeholder="First Name" required />
+        <input type="text" name="Last Name" id="last-name" placeholder="Last Name" required />
+        <br> <input type="text" type="tel" name="Mobile Number or Email" id="mobile-email"
+            placeholder="Mobile Number or Email" required />
+        <br>
+        <input type="password" name="password2" id="password-two" placeholder="New Password" />
+        <br>
+        </form>
+        <pp> Birthday
+            <pp>
+                <br>
+                <!-- birthday needed-->
+                <select name="birthday day" id="birthday day">
+                    <option selected>1</option>
+                </select>
+                <select name="birthday month" id="birthday month">
+                    <option selected>Jan</option>
+                </select>
+                <select name="birthday year" id="birthday year">
+                    <option selected>2004</option>
+                </select></select>
+
+
+                <br>
+                <form>
+                    <input type="radio" id="Female" name="gender" value="Female">
+                    <label for="Female">Female</label>
+                    <input type="radio" id="Male" name="gender" value="Male">
+                    <label for="Male">Male</label>
+                </form>
+
+                <p>
+                    By clicking sign up, you agree to our Terms, Data Policy and Cookie
+                    <br>Policy. You may receive SMS Notifications from us and can opt out
+                    <br> at any time.
+                </p>
+                <button class="button" type="submit">Sign Up</button>
+                <div></div>
+
 </body>
 
 </html>
